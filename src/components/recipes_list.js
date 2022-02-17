@@ -7,7 +7,7 @@ const RecipesList = ({ title, calories, image, ingredients, time }) => {
       <h1>{title}</h1>
       <div className={style.info}>
         <p>{Math.round(calories)} Kcal</p>
-        <p>{time != 0 ? time + ' mins' : ''}</p>
+        <p>{time !== 0 ? time + ' mins' : ''}</p>
       </div>
       <h2>Recipe</h2>
       <ul>
